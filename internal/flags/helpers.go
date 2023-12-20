@@ -23,9 +23,9 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/internal/version"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/k2build/geth/internal/version"
+	"github.com/k2build/geth/log"
+	"github.com/k2build/geth/params"
 	"github.com/mattn/go-isatty"
 	"github.com/urfave/cli/v2"
 )

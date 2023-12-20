@@ -4,7 +4,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/k2build/geth/params"
 	"github.com/stretchr/testify/require"
 )
 

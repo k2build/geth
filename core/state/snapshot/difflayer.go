@@ -25,10 +25,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/rlp"
 	bloomfilter "github.com/holiman/bloomfilter/v2"
+	"github.com/k2build/geth/common"
+	"github.com/k2build/geth/core/types"
+	"github.com/k2build/geth/rlp"
 	"golang.org/x/exp/slices"
 )
 

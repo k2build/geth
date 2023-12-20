@@ -20,7 +20,7 @@ import (
 	"container/heap"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common/mclock"
+	"github.com/k2build/geth/common/mclock"
 	"golang.org/x/exp/constraints"
 )
 

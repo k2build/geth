@@ -19,9 +19,9 @@ package client
 import (
 	"sync"
 
-	"github.com/ethereum/go-ethereum/les/utils"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/nodestate"
+	"github.com/k2build/geth/les/utils"
+	"github.com/k2build/geth/p2p/enode"
+	"github.com/k2build/geth/p2p/nodestate"
 )
 
 // WrsIterator returns nodes from the specified selectable set with a weighted random

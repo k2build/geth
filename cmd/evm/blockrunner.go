@@ -24,10 +24,10 @@ import (
 	"regexp"
 	"sort"
 
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/eth/tracers/logger"
-	"github.com/ethereum/go-ethereum/tests"
+	"github.com/k2build/geth/core/rawdb"
+	"github.com/k2build/geth/core/vm"
+	"github.com/k2build/geth/eth/tracers/logger"
+	"github.com/k2build/geth/tests"
 	"github.com/urfave/cli/v2"
 )
 

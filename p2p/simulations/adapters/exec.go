@@ -34,12 +34,12 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/ethereum/go-ethereum/internal/reexec"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/k2build/geth/internal/reexec"
+	"github.com/k2build/geth/log"
+	"github.com/k2build/geth/node"
+	"github.com/k2build/geth/p2p"
+	"github.com/k2build/geth/p2p/enode"
+	"github.com/k2build/geth/rpc"
 	"github.com/gorilla/websocket"
 )
 

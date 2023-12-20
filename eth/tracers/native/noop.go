@@ -20,9 +20,9 @@ import (
 	"encoding/json"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/eth/tracers"
+	"github.com/k2build/geth/common"
+	"github.com/k2build/geth/core/vm"
+	"github.com/k2build/geth/eth/tracers"
 )
 
 func init() {
