@@ -21,15 +21,15 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/consensus/misc/eip1559"
-	"github.com/ethereum/go-ethereum/consensus/misc/eip4844"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rpc"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/k2build/geth/common"
+	"github.com/k2build/geth/consensus"
+	"github.com/k2build/geth/consensus/misc/eip1559"
+	"github.com/k2build/geth/consensus/misc/eip4844"
+	"github.com/k2build/geth/core/state"
+	"github.com/k2build/geth/core/types"
+	"github.com/k2build/geth/params"
+	"github.com/k2build/geth/rpc"
+	"github.com/k2build/geth/trie"
 )
 
 // Proof-of-stake protocol constants.

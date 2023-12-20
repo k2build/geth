@@ -22,14 +22,14 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/internal/ethapi"
-	"github.com/ethereum/go-ethereum/signer/core"
-	"github.com/ethereum/go-ethereum/signer/core/apitypes"
-	"github.com/ethereum/go-ethereum/signer/storage"
+	"github.com/k2build/geth/accounts"
+	"github.com/k2build/geth/common"
+	"github.com/k2build/geth/common/hexutil"
+	"github.com/k2build/geth/core/types"
+	"github.com/k2build/geth/internal/ethapi"
+	"github.com/k2build/geth/signer/core"
+	"github.com/k2build/geth/signer/core/apitypes"
+	"github.com/k2build/geth/signer/storage"
 )
 
 const JS = `

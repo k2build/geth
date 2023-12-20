@@ -21,13 +21,13 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/ethdb/memorydb"
-	"github.com/ethereum/go-ethereum/trie/trienode"
+	"github.com/k2build/geth/common"
+	"github.com/k2build/geth/core/rawdb"
+	"github.com/k2build/geth/core/types"
+	"github.com/k2build/geth/crypto"
+	"github.com/k2build/geth/ethdb"
+	"github.com/k2build/geth/ethdb/memorydb"
+	"github.com/k2build/geth/trie/trienode"
 )
 
 // makeTestTrie create a sample test trie to test node-wise reconstruction.

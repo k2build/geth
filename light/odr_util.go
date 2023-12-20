@@ -21,12 +21,12 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus/misc/eip4844"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/txpool"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/k2build/geth/common"
+	"github.com/k2build/geth/consensus/misc/eip4844"
+	"github.com/k2build/geth/core/rawdb"
+	"github.com/k2build/geth/core/txpool"
+	"github.com/k2build/geth/core/types"
+	"github.com/k2build/geth/rlp"
 )
 
 // errNonCanonicalHash is returned if the requested chain data doesn't belong

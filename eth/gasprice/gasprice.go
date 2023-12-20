@@ -21,14 +21,14 @@ import (
 	"math/big"
 	"sync"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/lru"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/k2build/geth/common"
+	"github.com/k2build/geth/common/lru"
+	"github.com/k2build/geth/core"
+	"github.com/k2build/geth/core/types"
+	"github.com/k2build/geth/event"
+	"github.com/k2build/geth/log"
+	"github.com/k2build/geth/params"
+	"github.com/k2build/geth/rpc"
 	"golang.org/x/exp/slices"
 )
 

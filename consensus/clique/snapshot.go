@@ -21,13 +21,13 @@ import (
 	"encoding/json"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/lru"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/k2build/geth/common"
+	"github.com/k2build/geth/common/lru"
+	"github.com/k2build/geth/core/rawdb"
+	"github.com/k2build/geth/core/types"
+	"github.com/k2build/geth/ethdb"
+	"github.com/k2build/geth/log"
+	"github.com/k2build/geth/params"
 	"golang.org/x/exp/slices"
 )
 

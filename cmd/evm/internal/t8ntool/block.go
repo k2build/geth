@@ -24,14 +24,14 @@ import (
 	"math/big"
 	"os"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/consensus/clique"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/k2build/geth/common"
+	"github.com/k2build/geth/common/hexutil"
+	"github.com/k2build/geth/common/math"
+	"github.com/k2build/geth/consensus/clique"
+	"github.com/k2build/geth/core/types"
+	"github.com/k2build/geth/crypto"
+	"github.com/k2build/geth/log"
+	"github.com/k2build/geth/rlp"
 	"github.com/urfave/cli/v2"
 )
 

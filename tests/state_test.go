@@ -28,13 +28,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/state/snapshot"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/eth/tracers/logger"
+	"github.com/k2build/geth/core"
+	"github.com/k2build/geth/core/rawdb"
+	"github.com/k2build/geth/core/state"
+	"github.com/k2build/geth/core/state/snapshot"
+	"github.com/k2build/geth/core/types"
+	"github.com/k2build/geth/core/vm"
+	"github.com/k2build/geth/eth/tracers/logger"
 )
 
 func TestState(t *testing.T) {

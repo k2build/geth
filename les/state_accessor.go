@@ -21,12 +21,12 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/eth/tracers"
-	"github.com/ethereum/go-ethereum/light"
+	"github.com/k2build/geth/core"
+	"github.com/k2build/geth/core/state"
+	"github.com/k2build/geth/core/types"
+	"github.com/k2build/geth/core/vm"
+	"github.com/k2build/geth/eth/tracers"
+	"github.com/k2build/geth/light"
 )
 
 // noopReleaser is returned in case there is no operation expected

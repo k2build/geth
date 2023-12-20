@@ -22,12 +22,12 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/internal/blocktest"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/k2build/geth/common"
+	"github.com/k2build/geth/common/math"
+	"github.com/k2build/geth/crypto"
+	"github.com/k2build/geth/internal/blocktest"
+	"github.com/k2build/geth/params"
+	"github.com/k2build/geth/rlp"
 )
 
 // from bcValidBlockTest.json, "SimpleTx"

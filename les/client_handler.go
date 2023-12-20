@@ -20,13 +20,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/mclock"
-	"github.com/ethereum/go-ethereum/core/forkid"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/light"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/trie/trienode"
+	"github.com/k2build/geth/common"
+	"github.com/k2build/geth/common/mclock"
+	"github.com/k2build/geth/core/forkid"
+	"github.com/k2build/geth/core/types"
+	"github.com/k2build/geth/light"
+	"github.com/k2build/geth/p2p"
+	"github.com/k2build/geth/trie/trienode"
 )
 
 // clientHandler is responsible for receiving and processing all incoming server

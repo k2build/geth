@@ -23,10 +23,10 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/mclock"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/eth/fetcher"
+	"github.com/k2build/geth/common"
+	"github.com/k2build/geth/common/mclock"
+	"github.com/k2build/geth/core/types"
+	"github.com/k2build/geth/eth/fetcher"
 )
 
 var (

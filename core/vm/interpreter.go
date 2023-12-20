@@ -17,10 +17,10 @@
 package vm
 
 import (
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/k2build/geth/common"
+	"github.com/k2build/geth/common/math"
+	"github.com/k2build/geth/crypto"
+	"github.com/k2build/geth/log"
 )
 
 // Config are the configuration options for the Interpreter

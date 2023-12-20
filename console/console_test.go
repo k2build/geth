@@ -25,14 +25,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/console/prompt"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/eth"
-	"github.com/ethereum/go-ethereum/eth/ethconfig"
-	"github.com/ethereum/go-ethereum/internal/jsre"
-	"github.com/ethereum/go-ethereum/miner"
-	"github.com/ethereum/go-ethereum/node"
+	"github.com/k2build/geth/common"
+	"github.com/k2build/geth/console/prompt"
+	"github.com/k2build/geth/core"
+	"github.com/k2build/geth/eth"
+	"github.com/k2build/geth/eth/ethconfig"
+	"github.com/k2build/geth/internal/jsre"
+	"github.com/k2build/geth/miner"
+	"github.com/k2build/geth/node"
 )
 
 const (

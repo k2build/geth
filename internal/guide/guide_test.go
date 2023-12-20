@@ -28,9 +28,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/accounts/keystore"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
+	"github.com/k2build/geth/accounts/keystore"
+	"github.com/k2build/geth/common"
+	"github.com/k2build/geth/core/types"
 )
 
 // Tests that the account management snippets work correctly.

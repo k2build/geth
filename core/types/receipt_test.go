@@ -25,10 +25,10 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rlp"
 	"github.com/holiman/uint256"
+	"github.com/k2build/geth/common"
+	"github.com/k2build/geth/params"
+	"github.com/k2build/geth/rlp"
 	"github.com/kylelemons/godebug/diff"
 	"github.com/stretchr/testify/require"
 )
